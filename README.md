@@ -12,7 +12,7 @@ pip install requests beautifulsoup4
 
 # How to Run
 
-python3 Final_Project.py
+python3 -i Final_Project.py
 
 # Usage
 

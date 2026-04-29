@@ -103,8 +103,3 @@ url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops"
 
 
 
-
-url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops"
-
-
-
