@@ -36,6 +36,17 @@ class LaptopScraper:
         
         self.laptops = laptops
 
+        def display_filtered(self):
+            if not self.filteredlaptops:
+                raise RuntimeError("No filtered laptops found. Run filter() first.")
+
+            #Iterates through the dictionary and prints
+            for laptop in self.filteredlaptops:
+                print(f"Laptop: {laptop['name']}")
+                print(f"Price: {laptop['price']}")
+                print(f"Rating: {laptop['rating']} / 5")
+                print("-" * 30)
+
 
 
 url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/laptops"
