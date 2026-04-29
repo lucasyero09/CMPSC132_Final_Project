@@ -32,3 +32,6 @@ x.scrape()
         x.filter("Rating", 5)     # sort by rating, show top 5
         x.display_filtered()
 
+# Project Link
+
+[Final Project Report](CMPSC132%20Report.pdf)
